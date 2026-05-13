@@ -1,0 +1,10 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px 40px;
+   background-color: rgb(48, 85, 73)
+}
+
+.footer__info {
+   color: white;
+}

@@ -1,0 +1,32 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 20px 40px;
+    background-color: rgb(48, 85, 73);
+}
+
+.header__nav-list {
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+    padding: 0;
+    }
+
+    .header__nav-link {
+
+        list-style: none;
+       text-align: center;
+        }
+.header__nav-link-item {
+    padding: 8px 12px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s;
+     }
+
+     .header__nav-link-item:hover {
+        color: rgb(32, 78, 118);
+    
+     }

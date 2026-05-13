@@ -1,0 +1,17 @@
+.main {
+    flex: 1;
+    padding: 40px;
+}
+
+.main__content {
+    display: grid;
+    grid-template-columns: 1fr 2px 3fr 2px 1fr;
+    gap: 20px;
+    min-height: 100%;
+}
+
+.main__divider {
+    width: 2px;
+    height: 100%;
+    background-color: rgb(48, 85, 73);
+    }
